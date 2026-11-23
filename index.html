@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>eDeas Soluciones — Ideas que funcionan</title>
+  <meta name="description" content="En eDeas Soluciones convertimos ideas en software. Desarrollamos sistemas a medida y productos propios para que comercios y empresas trabajen mejor y crezcan.">
+  <meta property="og:title" content="eDeas Soluciones — Ideas que funcionan">
+  <meta property="og:description" content="Software a medida y productos propios para comercios, pymes y empresas.">
+  <meta property="og:url" content="https://edeassoluciones.com.ar">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0B1530">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <meta property="og:image" content="https://edeassoluciones.com.ar/img/edeas-isotipo-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="logo" aria-label="eDeas Soluciones, inicio">
+        <picture>
+          <source media="(max-width: 720px)" srcset="img/edeas-wordmark-oscuro.svg">
+          <img class="logo__img" src="img/edeas-soluciones-horizontal-oscuro.svg" alt="eDeas Soluciones" width="551" height="100">
+        </picture>
+      </a>
+      <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__menu" id="menu" aria-label="Principal">
+        <a href="#servicios">Servicios</a>
+        <a href="#productos">Productos</a>
+        <a href="#como-trabajamos">Cómo trabajamos</a>
+        <a href="#contacto" class="btn btn--small btn--primary">Hablemos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow">Software a medida y productos propios</p>
+          <h1>Ideas que <span class="accent">funcionan.</span></h1>
+          <p class="hero__lead">En eDeas Soluciones convertimos ideas en software. Desarrollamos sistemas a medida y productos propios para que comercios y empresas trabajen mejor y crezcan.</p>
+          <div class="hero__actions">
+            <a href="#contacto" class="btn btn--primary">Contanos tu idea</a>
+            <a href="#productos" class="btn btn--ghost">Conocé eDeasCBot</a>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="chat">
+            <div class="chat__head">
+              <span class="chat__avatar">e</span>
+              <div>
+                <strong>eDeasCBot</strong>
+                <small>Asistente con IA · en línea</small>
+              </div>
+            </div>
+            <div class="chat__body">
+              <p class="msg msg--bot">¡Hola, Laura! Te escribo de parte del equipo. ¿Seguís interesada en la propuesta que pediste?</p>
+              <p class="msg msg--user">Sí, ¿me pasás los detalles?</p>
+              <p class="msg msg--bot">¡Claro! Te cuento las opciones y, si querés, te contacta una persona del equipo.</p>
+              <p class="msg msg--typing"><span></span><span></span><span></span></p>
+            </div>
+            <div class="chat__channels">
+              <span class="chip">WhatsApp</span><span class="chip">Email</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Servicios -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow eyebrow--dark">Servicios</p>
+          <h2>De la idea al software, para cada tipo de negocio</h2>
+          <p class="section__lead">Escuchamos qué necesita tu negocio y lo convertimos en una herramienta concreta: un producto listo para usar o un desarrollo hecho a tu medida.</p>
+        </header>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 9h16l-1.5-5h-13zM5 9v11h14V9M9 20v-6h6v6"/></svg>
+            </div>
+            <h3>Comercios</h3>
+            <p>Sistemas simples y modernos para vender, cobrar y controlar tu negocio, con soporte cercano.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h10M4 18h7M17 14l3 3-3 3"/></svg>
+            </div>
+            <h3>Pymes</h3>
+            <p>Ordenamos tus procesos con software hecho a tu medida, para que dejes atrás las planillas.</p>
+          </article>
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><path d="M14 17.5h7M17.5 14v7"/></svg>
+            </div>
+            <h3>Empresas</h3>
+            <p>Desarrollo sólido, con buenas prácticas y tecnología actual, que se integra con lo que ya tenés.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Productos -->
+    <section class="section section--tint" id="productos">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow eyebrow--dark">Productos eDeas</p>
+          <h2>Soluciones listas para usar</h2>
+          <p class="section__lead">Nuestros productos nacen de necesidades reales y comparten la misma forma de trabajar: simples de usar y bien construidos.</p>
+        </header>
+
+        <article class="product">
+          <div class="product__copy">
+            <span class="badge">Nuevo</span>
+            <h3>eDeas<span class="accent-strong">CBot</span></h3>
+            <p class="product__lead">Un chatbot con IA que contacta a tus clientes y responde sus mensajes por WhatsApp y email, las 24 horas.</p>
+            <ul class="checks">
+              <li><strong>Contacta por vos.</strong> La IA redacta el primer mensaje y lo envía a tus contactos.</li>
+              <li><strong>Responde al instante.</strong> Contesta con el contexto de tu negocio y el historial de cada conversación.</li>
+              <li><strong>Sabe cuándo derivar.</strong> Si hace falta una persona, pausa la IA y avisa a tu equipo.</li>
+              <li><strong>Todo en un panel.</strong> Contactos, conversaciones, métricas y usuarios con roles.</li>
+            </ul>
+            <a href="#contacto" class="btn btn--primary">Quiero una demo</a>
+          </div>
+          <div class="product__panel" aria-hidden="true">
+            <div class="panel">
+              <div class="panel__bar"><span></span><span></span><span></span></div>
+              <div class="panel__stats">
+                <div><small>Contactados</small><strong>1.248</strong></div>
+                <div><small>Respondieron</small><strong>612</strong></div>
+                <div><small>Requieren humano</small><strong>9</strong></div>
+              </div>
+              <div class="panel__chart">
+                <span style="--h:40%"></span><span style="--h:62%"></span><span style="--h:48%"></span><span style="--h:75%"></span><span style="--h:58%"></span><span style="--h:88%"></span><span style="--h:70%"></span>
+              </div>
+              <small class="panel__note">Datos de ejemplo</small>
+            </div>
+          </div>
+        </article>
+
+        <article class="product product--soon">
+          <div>
+            <span class="badge badge--muted">Próximamente</span>
+            <h3>eDeas<span class="accent-strong">Point</span></h3>
+            <p>Punto de venta para comercios: vendé, cobrá y controlá tu stock desde un solo lugar.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Cómo trabajamos -->
+    <section class="section" id="como-trabajamos">
+      <div class="container">
+        <header class="section__head">
+          <p class="eyebrow eyebrow--dark">Cómo trabajamos</p>
+          <h2>Innovación que se usa</h2>
+          <p class="section__lead">Usamos tecnología nueva solo cuando suma. Lo que importa es que el software resuelva tu problema y siga funcionando con el tiempo.</p>
+        </header>
+
+        <ol class="steps">
+          <li>
+            <span class="steps__n">01</span>
+            <h3>Escuchamos</h3>
+            <p>Entendemos tu negocio, tu idea y qué querés resolver.</p>
+          </li>
+          <li>
+            <span class="steps__n">02</span>
+            <h3>Diseñamos</h3>
+            <p>Proponemos la solución: un producto eDeas, un desarrollo a medida o una combinación.</p>
+          </li>
+          <li>
+            <span class="steps__n">03</span>
+            <h3>Construimos</h3>
+            <p>Desarrollamos con buenas prácticas y te mostramos avances en cada etapa.</p>
+          </li>
+          <li>
+            <span class="steps__n">04</span>
+            <h3>Acompañamos</h3>
+            <p>Ponemos el sistema en marcha y seguimos a tu lado para que crezca con vos.</p>
+          </li>
+        </ol>
+
+        <div class="values">
+          <div><h4>Innovación aplicada</h4><p>Tecnología actual, al servicio de resultados concretos.</p></div>
+          <div><h4>Calidad técnica</h4><p>Software prolijo, seguro y pensado para durar.</p></div>
+          <div><h4>Claridad</h4><p>Hablamos sin jerga y no prometemos lo que no hacemos.</p></div>
+          <div><h4>Compromiso</h4><p>Relaciones a largo plazo, no proyectos sueltos.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="cta" id="contacto">
+      <div class="hero__glow hero__glow--cta" aria-hidden="true"></div>
+      <div class="container cta__inner">
+        <h2>¿Tenés una idea? Hagámosla funcionar.</h2>
+        <p>Contanos qué necesitás y te respondemos con una propuesta concreta.</p>
+        <div class="hero__actions hero__actions--center">
+          <a href="mailto:contacto@edeassoluciones.com.ar?subject=Quiero%20contarles%20mi%20idea" class="btn btn--primary">contacto@edeassoluciones.com.ar</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#top" class="logo logo--small" aria-label="eDeas Soluciones, volver arriba">
+        <img class="logo__img" src="img/edeas-wordmark-oscuro.svg" alt="eDeas" width="322" height="100">
+      </a>
+      <p>© <span id="year">2026</span> eDeas Soluciones · Argentina</p>
+      <p class="footer__tag">Ideas que funcionan.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
